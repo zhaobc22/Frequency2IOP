@@ -57,23 +57,3 @@ low_percentile	Threshold percentile for "very low" detection	5.0	✅
 growth_factor	Window growth multiplier	1.5	✅
 max_window	Maximum allowed window length	4×base_window	✅
 📈 Calibration Table
-
-Defined in get_default_calibration_segments().
-Each segment specifies the mapping between frequency and pressure as a linear relationship.
-
-Example entry:
-
-{
-    "f_low": 498.8,
-    "f_high": 505.0,
-    "p_at_low": 15.0,
-    "p_at_high": 7.5
-}
-
-
-You must update these breakpoints and pressures according to your latest standard calibration results.
-
-
-📄 License
-
-MIT License — you are free to use, modify, and distribute with attribution.
